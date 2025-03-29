@@ -57,12 +57,11 @@ if choice == "Home":
         **👉 Key Features:**
         - **Crop Yield Prediction** using **Machine Learning Models (SVR)** 📈
         - **Crop Recommendation** based on soil and weather conditions 🌿
+        - **Smart Irrigation System** to predict water requirements 💧
         - **Easy-to-Use Streamlit Interface** 🎨
         - **Supports Various Crops and Geographical Areas** 🌎
         - **Optimized for Desktop & Mobile Use** 📱💻
-        - **Smart Irrigation System** to predict water requirements 💧
-        - **Easy-to-Use Streamlit Interface** 🎨
-    """)
+                    """)
     st.write("""
         **About This Application**
         This **AI-powered system** helps farmers and researchers **predict crop yield** based on environmental factors and recommend the best crops for cultivation.

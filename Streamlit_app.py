@@ -60,6 +60,36 @@ if choice == "Home":
         - **Smart Irrigation System** to predict water requirements 💧
         - **Easy-to-Use Streamlit Interface** 🎨
     """)
+    st.write("""
+        **About This Application**
+        
+        This **AI-powered system** helps farmers and researchers **predict crop yield** based on environmental factors and recommend the best crops for cultivation.
+        
+        **🔹 Key Features:**
+        - **Crop Yield Prediction** using **Machine Learning Models (SVR)** 📈
+        - **Crop Recommendation** based on soil and weather conditions 🌿
+        - **Easy-to-Use Streamlit Interface** 🎨
+        - **Supports Various Crops and Geographical Areas** 🌎
+        - **Optimized for Desktop & Mobile Use** 📱💻
+        
+        **🌟 Start Exploring:**
+        - Click on **"Crop Prediction"** to get recommendations.
+        - Adjust input values to see real-time results.
+    """)
+    
+    # Additional Features
+    st.markdown("### 🌱 Features & Benefits")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("✔ **Smart Crop Suggestions** 🌾")
+        st.markdown("✔ **Accurate Weather-Based Recommendations** ☁️")
+        st.markdown("✔ **Soil Nutrient Analysis** 🧪")
+    
+    with col2:
+        st.markdown("✔ **Supports Multiple Soil Types** 🌎")
+        st.markdown("✔ **Easy-to-Use Interface** 🎨")
+        st.markdown("✔ **Optimized for All Devices** 📱💻")
 
 elif choice == "Crop Yield Prediction":
     st.title("🌾 Crop Yield Prediction")
